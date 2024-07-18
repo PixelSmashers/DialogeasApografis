@@ -2,3 +2,7 @@ name: DialogeasApografis
 version: '1.0-SNAPSHOT'
 main: com.github.pixelsmashers.dialogeasApografis.DialogeasApografis
 api-version: '1.21'
+commands:
+  echo:
+    description: Echoes command and/or args back to user
+    usage: /echo
