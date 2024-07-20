@@ -5,4 +5,8 @@ api-version: '1.21'
 commands:
   echo:
     description: Echoes command and/or args back to user
-    usage: /echo
+    usage: /echo [args...]
+
+  sort:
+    description: sorts designated inventory by provided choice
+    usage: /sort [player | chest] [ simple | complex [args...]]

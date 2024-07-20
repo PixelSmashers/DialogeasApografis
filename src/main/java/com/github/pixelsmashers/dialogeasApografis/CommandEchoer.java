@@ -13,7 +13,6 @@ public class CommandEchoer implements CommandExecutor {
             return false;
         }
 
-        // I made a typo!
         if (args.length > 0) {
             // put the args together in a string builder
             StringBuilder argsBuilder = new StringBuilder();
